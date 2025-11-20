@@ -52,7 +52,7 @@ print("Konflikt 3: Motivajonen i teamet synker.\n")
 
 print("A: Arrangere teambuilding og sosial aktivitet.")
 print("B: Prioritere fremdrift og fokus på resultater.\n")
-valg3 = input("Hva velger du? (A/B): ").upper()
+valg3 = input("Hva velger du? (A/B): ")
 
 if valg3 == "A":
     print("\nTeamet får bedre samarbeid og stemning, men dere mister litt tid.\n")
