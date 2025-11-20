@@ -1,4 +1,4 @@
-Moral = 50
+Moral = 50 #Variabel som representerer lagmoralen gjennom historien, påvirkes av valgene med angitte negative/positive verdier
 print("\n\n")
 print(Moral)
 print ("Silje VS Sivert\n"
@@ -8,7 +8,7 @@ print ("Silje VS Sivert\n"
 "" \
 "\nValg B:\n Ha individuelle samataler med Silje og Sivert\n") \
 
-Valg1 = input("Velg enten A eller B\n")
+Valg1 = input("Velg enten A eller B\n") #Siden disse resultatene er veldig nyanserte, har de mindre påvirkning på moralverdien.
 if Valg1 == "A":
    Moral -= 5
    print ("\nÅpenheten fører til at konflikten blir synlig hos hele gruppen. Polariseringen i gruppen øker og teamet fortsetter med dårligere samhold, og risikoen for at uenigheten spres til andre arbeidsområder øker.")
@@ -53,10 +53,10 @@ if Valg3 == "A":
     Moral += 20
     print("\nErling arrangerer sosiale arrangement og aktiviteter som styrker miljøet i teamet. \nDermed løftes arbeidsmoralen, motivasjonen og effektiviteten i prosjektarbeidet.")
 elif Valg3 == "B" and Moral > 45:
-    Moral += 0
+    Moral += 0 #Om moralen er relativt god fra før, påvirker valg B ikke moralverdien.
     print("\nMotivasjonen i teamet fortsetter som den er uten påvirkning, og arbeidet fortsetter.")
 elif Valg3 == "B" and Moral <= 45:
-    Moral -= 15
+    Moral -= 15 #Når moralverdien er lav, påvirker valg B moralen negativt.
     print("\nUten et sosialt miljø i teamet blir den allerede dårlige stemningen enda værre. Motivasjonen og effektiviteten er meget lav.")
 else: print("\nErling klarer ikke ta et reelt valg, og ingeting skjer.")
 
