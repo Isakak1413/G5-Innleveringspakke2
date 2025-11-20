@@ -5,7 +5,7 @@ print("\n Han vurderer to alternativer for å håndtere situasjonen:")
 
 
 print("-----------Konflikt 1-----------")
-
+print ("Moralscore: ",(Moral))
 print(" Ta et valg : " \
 " 1. Ta konflikten opp i plenum." \
 " 2. Snakk med Silje og Sivert induvielt.")
@@ -24,7 +24,7 @@ elif valg1 == "2":
     
 
 print("-----------Konflikt 2-----------")
-
+print ("Moralscore: ",(Moral))
 print("Neste situasjon involverer Hambi og Jabir det er spenning mellom dem på grunn av uenighet om hvordan innbyggerne skal kunne delta i digitale folkemøter.")
 print("Erling vurderer to løsninger for å løse konflikten:")
 
@@ -45,8 +45,7 @@ elif valg2 == "2":
     print("Konflikten mellom dem vedvarer, og Erling må finne en annen måte å fremme samarbeid på.")
 
 print("-----------Konflikt 3----------")
-
-
+print ("Moralscore: ",(Moral))
 print("\n Den siste situasjonen involverer Erling og hvordan han selv kan motivere gruppen etter de tidligere konfliktene. Hvordan Erling har tidligere valgt å håndtere konfliktene har påvirket moralen i gruppen.")
 print("\n To løsninger vurderes av Erling for å motivere teamet:")
 
@@ -69,6 +68,7 @@ else :
     print("Gruppen blir verken mer eller mindre motivert av dette valget.")
 
 # Til slutt er det moral du har fått av de forskjellige sprøsmålene som velger hvilket endepunkt du får
+print ("Moralscore: ",(Moral))
 if Moral > 85:
     print("\n Gruppe dynamikken har forbedret seg betydelig takket være Erlings valg. Gruppen jobber nå mer effektivt sammen og er motivert for fremtidige utfordringer.")
 elif Moral < 40:
