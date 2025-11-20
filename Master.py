@@ -76,3 +76,5 @@ else :
     print("\n Gruppe dynamikken har sett bedre tider men også verre. Det er derfor rom for forbedring i gruppe damymikken.")
 
 print("\n Takk for at du hjalp Erling med å navigere gjennom disse utfordringene i gruppen!")
+
+input("\nTrykk Enter for å avslutte spillet...")
