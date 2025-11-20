@@ -53,7 +53,7 @@ print("\n Ta et valg : " \
       " 1. Organisere en teambuilding-aktivitet for å styrke gruppens samhold." \
       " 2. Prioritere fremdiften i prosjektet og å fokus på resultatet. ")
 valg3 = input("Skriv inn 1 eller 2 for å velge: ")
-if valg3 == "1" and Moral > 45:
+if valg3 == "1":
     Moral += 20
     print("\n Erling organiserer en teambuilding-aktivitet. Gjennom samarbeidsøvelser og sosiale aktiviteter, styrkes gruppens samhold betydelig.")
     print("\n Gruppen føler seg mer motivert og engasjert i arbeidet sitt.")
